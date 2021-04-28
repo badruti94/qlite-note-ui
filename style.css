@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    padding: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title-header-wrapper {
+    font-weight: bold;
+    color: #d35400;
+    display: flex;
+    justify-content: space-between;
+}
+.ti-notepad{
+    position: relative;
+    top: 8px;
+    font-size: 2em;
+}
+
+#setting-icon-wrapper {
+    font-size: 20px;
+    background-color: rgba(211, 84, 0, 0.2);
+    border-radius: 50%;
+    padding: 7px;
+
+}
+
+nav ul {
+    margin-top: 3em;
+    list-style: none;
+    font-weight: bold;
+    color: gray;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+nav ul li:first-child{
+    color: #d35400;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#title-wrapper {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #d35400;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+#plus-button-wrapper {
+    font-size: 20px;
+    background-color: rgba(211, 84, 0, 0.2);
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    padding: 7px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 19px;
+}
+
+article{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.card{
+    background-color: rgba(236, 240, 241,1.0);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 4px;
+}
+.card .title{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+}
+.card .body{
+    font-size: 13px;
+    margin-bottom: 1em;
+}
+.card .date{
+    font-weight: bold;
+    font-size: 12px;
+}
